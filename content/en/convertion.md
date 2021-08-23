@@ -17,6 +17,8 @@ Convert any money value from one currency to another at the latest API rates.
 
 ## Formatted result
 
+### Example
+
 <code-group>
   <code-block label="cURL" active>
 
@@ -30,7 +32,7 @@ curl https://api.forexapi.world/convert?from=USD&to=XAF&value=500
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 {
@@ -41,6 +43,8 @@ Result format
 ```
 
 ## Unformatted result
+
+### Example
 
 <code-group>
   <code-block label="cURL" active>
@@ -55,7 +59,7 @@ curl https://api.forexapi.world/convert?from=USD&to=XAF&value=500&format=false
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 {
@@ -66,6 +70,8 @@ Result format
 ```
 
 ## Conversion based on country code
+
+### Example
 
 <code-group>
   <code-block label="cURL" active>
@@ -80,7 +86,7 @@ curl https://api.forexapi.world/convert?from=USD&country=cm&value=500
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 {

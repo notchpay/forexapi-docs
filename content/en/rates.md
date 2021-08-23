@@ -15,6 +15,8 @@ To get access of those endpoint, you need [API Key](https://forexapi.world/setti
 
 Get the latest exchange rates available currencies.
 
+### Example
+
 <code-group>
   <code-block label="cURL" active>
 
@@ -27,7 +29,7 @@ curl https://api.forexapi.world/rates
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 [
@@ -64,6 +66,8 @@ Result format
 
 Get the latest exchange rates for a currency.
 
+### Example
+
 <code-group>
   <code-block label="cURL" active>
 
@@ -76,7 +80,7 @@ curl https://api.forexapi.world/rates?for=AFN
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 {
@@ -93,6 +97,8 @@ Result format
 
 Get the latest exchange rates for a currency and convert response.
 
+### Example
+
 <code-group>
   <code-block label="cURL" active>
 
@@ -105,7 +111,7 @@ curl https://api.forexapi.world/rates?for=USD&base=xaf
   </code-block>
 </code-group>
 
-Result format
+### Result format
 
 ```json
 {

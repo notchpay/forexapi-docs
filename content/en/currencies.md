@@ -15,6 +15,7 @@ To get access of those endpoint, you need [API Key](https://forexapi.world/setti
 
 Get currencies available on our server.
 
+### Example
 <code-group>
   <code-block label="cURL" active>
 
@@ -29,7 +30,7 @@ curl https://api.forexapi.world/currencies
   
 </code-group>
 
-Result format
+### Result format
 
 ```json
 [

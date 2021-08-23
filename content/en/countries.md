@@ -13,6 +13,8 @@ To get access of those endpoint, you need [API Key](https://forexapi.world/setti
 
 # Fetch
 
+### Example
+
 Get countries list available on our server.
 
 <code-group>
@@ -29,7 +31,7 @@ curl https://api.forexapi.world/countries
   
 </code-group>
 
-Result format
+### Result format
 
 ```json
 [
